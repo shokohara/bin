@@ -1,0 +1,4 @@
+#!/bin/sh
+#echo "" | slack
+echo "`hostname`" | slack
+#echo "`hostname`:$PWD(`git rev-parse --abbrev-ref HEAD 2>/dev/null`)" | slack
